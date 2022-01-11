@@ -1,3 +1,0 @@
-
-reparar deformacion cuando se recarga la pagina(como si tardaran en cargar los estilos)
-
