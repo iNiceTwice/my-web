@@ -5,7 +5,7 @@
   "scripts": {
     "web:client": "webpack --mode=none --watch --config webpack.client.js",
     "web:server": "webpack --watch --mode=none --config webpack.server.js ",
-    "start": "nodemon --watch ./src/public --exec node ./src/public/bundle.js",
+    "start": "node ./src/public/bundle.js",
     "dev": "npm-run-all --parallel web:*"
   },
   "author": "",
